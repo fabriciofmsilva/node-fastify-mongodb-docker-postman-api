@@ -1,0 +1,35 @@
+{
+  "name": "fastify-mongodb-docker-postman-api",
+  "version": "1.0.0",
+  "description": "Node.js API with Fastify, MongoDB, Docker, and POSTMAN",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabriciofmsilva/node-fastify-mongodb-docker-postman-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fabriciofmsilva/node-fastify-mongodb-docker-postman-api/issues"
+  },
+  "homepage": "https://github.com/fabriciofmsilva/node-fastify-mongodb-docker-postman-api#readme",
+  "dependencies": {
+    "aws-sdk": "^2.449.0",
+    "bcrypt-nodejs": "0.0.3",
+    "fastify": "^2.3.0",
+    "fastify-autoload": "^0.8.0",
+    "fastify-jwt": "^0.10.0",
+    "handlebars": "^4.1.2",
+    "lodash": "^4.17.11",
+    "mongoose": "^5.5.5",
+    "nconf": "^0.10.0",
+    "nodemailer": "^6.1.1",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.7",
+    "url-join": "^4.0.0",
+    "uuid": "^3.3.2"
+  }
+}
